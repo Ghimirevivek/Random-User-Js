@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+#user-image {
+  margin: 1em 0;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+#user-id {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+#info {
+  display: none;
+  margin-top: 1em;
+}
+
+#info h3 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#info p {
+  margin: 0;
+  font-size: 1.2em;
+}
